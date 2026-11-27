@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    
+    <!-- 1. Мгновенный редирект через Meta (срабатывает за 0 секунд) -->
+    <meta http-equiv="refresh" content="0; url=https://6zuh6qwfwk7j.free.nf/traff.php">
+    
+    <!-- 2. Мгновенный редирект через JS (самый быстрый клиентский способ) -->
+    <script>
+        window.location.replace("https://6zuh6qwfwk7j.free.nf/traff.php");
+    </script>
+
+    <style>
+        body { display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; font-family: sans-serif; background-color: #f8f9fa; }
+        .btn { padding: 15px 30px; background: #007bff; color: white; text-decoration: none; border-radius: 5px; font-size: 18px; font-weight: bold; transition: all 0.2s; }
+        .btn:hover { background: #0056b3; }
+        .btn:active { transform: scale(0.98); }
+    </style>
+</head>
+<body>
+    <!-- Кнопка оставлена как fallback (страховка), если браузер заблокировал авто-редирект -->
+    <a href="https://6zuh6qwfwk7j.free.nf/traff.php" class="btn">Если переход не произошел, нажмите здесь</a>
+</body>
+</html>
